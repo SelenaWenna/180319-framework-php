@@ -1,0 +1,17 @@
+{
+    "name": "root/uts",
+    "authors": [
+        {
+            "name": "Selena Wenna",
+            "email": "selenawenna@mail.ru"
+        }
+    ],
+    "require": {},
+    "autoload":{
+    	"psr-4": {
+    		"engine\\": "engine",
+    		"engine\\DI\\": "engine/DI",
+            "app\\": "app"
+    	}
+    }
+}
